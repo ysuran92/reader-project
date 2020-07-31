@@ -1,0 +1,43 @@
+body {
+    background-image: url(books_texture3018.jpg);
+}
+
+p {
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.paragraph {
+    height: 150px;
+}
+
+.buttonContainer {
+    height: 200px;
+    position: relative;
+}
+
+.aligner {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.buttonArrow {
+    width: 25px;
+    height: 25px;
+    margin-left: 50%;
+    background-image: url(next.svg);
+    background-position: center;
+}
+
+.buttonArrow2 {
+    width: 25px;
+    height: 25px;
+    margin-left: -50%;
+    background-image: url(previous.svg);
+    background-position: center;
+}

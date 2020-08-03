@@ -49,6 +49,10 @@ h2 {
     text-align: center;
 }
 
-#p2 {
-    margin-top: 4rem;
+.makeSmaller {
+    font-size: large;
+}
+
+.makeSmaller2 {
+    font-size: medium;
 }

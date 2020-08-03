@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet" />
     <script src="jquery-3.5.1.min.js"></script>
@@ -13,7 +16,7 @@
 </head>
 
 <body>
-    <div id="fullpage">
+    <div id="fullpage" class="container">
         <div class="section">
             <div class="hContainer">
                 <h1>
@@ -22,23 +25,37 @@
                 <h2>H.P. Lovecraft</h2>
             </div>
             <div>
-                <p>
+                <p class="col-7">
                     Al oeste de Arkham se alzan colinas selváticas y hay valles con densos bosques en los cuales no ha resonado nunca el ruido de un hacha. Hay angostas y oscuras cañadas donde los árboles se inclinan de manera fantástica, y donde discurren estrechos arroyuelos
                     que nunca han recibido ni reflejos de la luz del sol. En las laderas menos agrestes hay casas de labor, antiguas y pétreas, con edificaciones cubiertas de musgo, rumiando eternamente en los misterios de la Nueva Inglaterra; pero todas
                     ellas están ahora vacías, sus amplias chimeneas están desmoronándose y las paredes se pandean debajo de los techos a la holandesa.
                 </p>
             </div>
         </div>
-        <div class="section wrapperTest">
-            <p class="pNext">
+        <div class="section wrapperTest row align-items-center">
+            <p class="pNext col-7" id=p2>
                 Sus antiguos moradores se marcharon, y a los extranjeros no les gusta vivir allí. Los francocanadienses lo han intentado, los italianos lo han intentado, y los polacos llegaron y se marcharon. Y ello no es debido a nada que pueda ser oído, o visto, o
                 tocado, sino a causa de algo meramente imaginario. El lugar no es bueno para la imaginación, y no aporta sueños tranquilizadores por la noche. Esto debe ser lo que mantiene a los extranjeros lejos del lugar, ya que el viejo Ammi Pierce
                 no les ha contado nunca lo que recuerda de los extraños días. Ammi, cuya cabeza ha estado un poco desequilibrada durante años, es el único que sigue allí, y el único que habla de los extraños días; y se atreve a hacerlo porque su casa
                 está muy próxima al campo abierto y a los caminos que rodean a Arkham.
             </p>
         </div>
+        <div class="section wrapperTest">
+            <p class="pNext col-7">
+                Cuando llegué a las colinas y valles para acotar los terrenos que estaban destinados a una nueva alberca, me dijeron que el lugar estaba embrujado. Esto me dijeron en Arkham, y como se trata de un pueblo muy antiguo lleno de leyendas de brujas, pensé
+                que lo de embrujado debía ser algo que las abuelas habían susurrado a los chiquillos a través de los siglos. El nombre de "marchito erial" me pareció muy raro y teatral, y me pregunté cómo habría llegado a formar parte de las tradiciones
+                de un pueblo puritano. Luego vi con mis propios ojos aquellas cañadas y laderas, y ya no me extrañó que estuvieran rodeadas de una leyenda de misterio. Las vi por la mañana, pero a pesar de ello estaban sumidas en la sombra. Los árboles
+                crecían demasiado juntos, y sus troncos eran demasiado grandes tratándose de árboles de Nueva Inglaterra. En las oscuras avenidas del bosque había demasiado silencio, y el suelo estaba demasiado blando con el húmedo musgo y los restos
+                de infinitos años de descomposición.
+            </p>
+        </div>
     </div>
-    <script src="script.js"></script>
+
+    <!--footer starts here, sections end here as well-->
+    <div class="footer ">
+        <p></p>
+    </div>
+    <script src="script.js "></script>
 </body>
 
 </html>
